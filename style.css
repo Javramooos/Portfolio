@@ -281,5 +281,14 @@ button {
 
 /* This code sets up the hover formatting for the submit button */
 .submit-container > div > a > button:hover {
-  color: #0077b
+  color: #0077b; 
+}
+/* This CSS code sets the text alignment to center for all div elements */
+div {
+  text-align: center;
+}
+
+/* This CSS code sets a margin of 10 pixels for all button elements */
+button {
+  margin: 10px;
 }
