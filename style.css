@@ -218,42 +218,6 @@ button {
   color: rgb(252, 252, 252);
 }
 
-.social-media-icons {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-}
-
-.social-media-icons li {
-  margin-left: 10px;
-}
-
-.social-media-icons li:first-child {
-  margin-left: 0;
-}
-
-.social-media-icons a {
-  display: flex;
-  align-items: center;
-}
-
-.social-media-icons img {
-  height: 40px;
-  width: 40px;
-  margin-right: 5px;
-}
-
-/* Change color of link text inside social media icons */
-.social-media-icons li a {
-  color: black;
-}
-
-.social-media-icons span {
-  font-size: 14px;
-  font-weight: bold;
-}
 
 /* This code sets up a container for a submit button and its related content */
 .submit-container {
@@ -262,15 +226,14 @@ button {
   align-items: center;
 }
 
-/* This code sets up the formatting for the content within the submit container */
-.submit-container > div {
+.submit-container > .button {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
 /* This code sets up the formatting for the submit button */
-.submit-container > div > a > button {
+.button > a > button {
   background: none;
   border: none;
   cursor: pointer;
@@ -279,12 +242,14 @@ button {
   transition: color 0.2s ease-in-out;
 }
 
-/* This code sets up the hover formatting for the submit button */
-.submit-container > div > a > button:hover {
+/* This code sets up the hover formatting for the button */
+.button > a > button:hover {
   color: #0077b; 
 }
+
+
 /* This CSS code sets the text alignment to center for all div elements */
-div {
+.button {
   text-align: center;
 }
 
